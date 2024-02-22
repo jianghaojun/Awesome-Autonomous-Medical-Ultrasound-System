@@ -3,6 +3,16 @@ In this repository, we will collect and document startup companies, researchers,
 
 ## Content
 
+### Cardiac
+
+#### Datasets
+
+- **Video-based AI for beat-to-beat assessment of cardiac function,** Nature (2020). ![](https://img.shields.io/badge/EchoNet_Dynamic-blue) ![](https://img.shields.io/badge/A4C_Left_Ventricle_Segmentation-green)
+
+  *David Ouyang, Bryan He, Amirata Ghorbani, Neal Yuan, Joseph Ebinger, Curt P. Langlotz, Paul A. Heidenreich, Robert A. Harrington, David H. Liang, Euan A. Ashley, and James Y. Zou.* [[Dataset](https://echonet.github.io/dynamic/)][[Paper](https://www.nature.com/articles/s41586-020-2145-8)][[Code](https://github.com/echonet/dynamic)]
+
+  **Description**: The dataset contains 10,030 apical-4-chamber echocardiography videos from individuals who underwent imaging between 2016 and 2018 as part of routine clinical care at Stanford University Hospital. Each video was cropped and masked to remove text and information outside of the scanning sector. The resulting images were then downsampled by cubic interpolation into standardized 112x112 pixel videos.
+
 ### End-to-end Autonomous Ultrasound System
 
 ### Imaging
@@ -11,11 +21,11 @@ In this repository, we will collect and document startup companies, researchers,
 
 #### 3D Reconstruction from 2D Images
 
-### Scanning
+### Probe Navigation or Guidance
 
 ### Analysis and Diagnosis
 
-#### Foundation Model
+### Foundation Model
 
 - **USFM: A Universal Ultrasound Foundation Model Generalized to Tasks and Organs towards Label Efficient Image Analysis,** arXiv 2024 (arXiv:2401.00153). ![](https://img.shields.io/badge/USFM-blue) ![](https://img.shields.io/badge/Classification_,_Segmentation_,_Enhancement-green)
 
